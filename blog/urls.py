@@ -13,3 +13,4 @@ urlpatterns = [
     path("post/<int:pk>/edit/", BlogUpdateView.as_view(), name="post_edit"),  # new
     path("", BlogListView.as_view(), name="home"),
 ]
+
