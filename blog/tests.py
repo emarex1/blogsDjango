@@ -18,7 +18,7 @@ class BlogTests(TestCase):
         )
 
     def test_post_model(self):
-        self.assertEqual(self.post.title, "A good title")
+        self.assertEqual(self.post.title, "A good 2 title")
         self.assertEqual(self.post.body, "Nice body content")
         self.assertEqual(self.post.author.username, "testuser")
         self.assertEqual(str(self.post), "A good title")
